@@ -10,5 +10,4 @@ CREATE TABLE Task(
     status VARCHAR(50),
     priority VARCHAR(50),
     date data
-
 )

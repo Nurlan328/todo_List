@@ -11,8 +11,13 @@ import java.util.List;
 @RestController
 public class TaskController {
 
-    @Autowired
     private TaskService taskService;
+
+    @Autowired
+    public TaskController(TaskService taskService) {
+        this.taskService = taskService;
+    }
+
     private final Logger logger = LoggerFactory.getLogger(TaskController.class);
 
     @PostMapping("/insertTask")
