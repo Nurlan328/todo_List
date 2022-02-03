@@ -1,6 +1,6 @@
 package com.repository;
 
-import com.example.model.Task;
+import com.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
